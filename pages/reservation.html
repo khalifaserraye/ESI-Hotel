@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="text/css" href="../src/logo.ico">
+	<title>ESI-HOTEL: Réservation</title>
+	</head>
+<body>
+<center>
+<a href="../index.html"><button class="btn accueil">Accueil</button></a>
+<a href="reservation.html"><button class="btn reservation">Réserver</button></a>
+<a href="ville.html"><button class="btn ville">Notre ville</button></a>
+<a href="chambres.html"><button class="btn chambres">Nos chambres</button></a>
+<a href="services.html"><button class="btn services">Nos services</button></a>
+<br><br>
+<img width="1000" height="100" src="../src/Réserver-maintenant.png">
+<br><br>
+</center>
+<table>
+	<tr>
+		<td>
+			<form method="post" class="form" action="http://www.esi-hotel.com/reserver.php">
+				<center>veuillez remplir ce formulaire s.v.p:</center>
+				NOM :<input type="text" placeholder="Votre nom"><br><br>
+				PRENOM:<input type="text" placeholder="Votre prenom"><br>
+				<p>CHOISEZ LA CHAMBRE :</p>
+				<input type="checkbox"><label>Chambre simple</label><br>
+				<input type="checkbox"><label>Chambre double</label><br>
+				<input type="checkbox"><label>Chambre twin</label><br><br>
+    			DU: <input type="date">
+				AU:<input type="date"><br><br>
+				NOMBRE DE PERSONNES:<input type="number" min=1 max=20 step=1><br><br>
+				NUMERO DE TELEPHONE:<input placeholder="votre numéro"><br><br>
+				ADRESS EMAIL:<input  placeholder="votre e-mail" ><br><br>	
+				METHODE DE PAINEMENT:<select><option>MasterCard</option><option>VISA</option></select><br><br>	
+				NUMERO DE LA CARTE :<input type="text" placeholder="numéro de la carte de paiement"><br><br>	
+				<input  type="submit" value="RESERVER" class="ENVOYER"><br>
+			</form>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<img width="800" height="400" src="../src/res.jpg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img width="800" height="400" src="../src/bgc.jpg">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<nav>
+	
+		<li><a href="../index.html">Accueil</a></li>
+		<li><a href="reservation.html">Réservation</a></li>
+		<li><a href="ville.html">La ville</a></li>
+		<li><a href="chambres.html">Les chambres</a></li>
+		<li><a href="services.html">Les services</a></li>
+		<center>
+		<br>E-mail: ESI-HOTEL@gmail.com
+		<br>Mobile: +213659066875
+		<br>Fix: +213472067053
+		<br>all rights reserved &#169 ESI-HOTEL 2018
+		</center>
+</nav>
+</body>
+</html>
+<!--******************Lien vers les styles******************-->
+	<link rel="stylesheet" type="text/css" href="../styles.css">
